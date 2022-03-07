@@ -18,6 +18,9 @@ starterProjects:
       remotes:
         origin: https://github.com/achraf-tajani/izycooptfront.git
 components:
+  - name: buildguidance
+    attributes:
+      tool: console-import
   - container:
       endpoints:
         - name: http
