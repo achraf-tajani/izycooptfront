@@ -19,7 +19,7 @@ components:
   - name: runtime
     container:
       endpoints:
-        - name: 'angular'
+        - name: angular
           targetPort: 4200
       image: node:lts-slim
       memoryLimit: 1024Mi
